@@ -1,0 +1,175 @@
+.navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.726);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: #e90e0e;
+  background-color: black;
+  text-align: center;
+  padding: 34px 36px;
+  text-decoration: none;
+}
+
+.dropdown5 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown5 .dropbtn5 {
+  cursor: cell;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 34px 36px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown5:hover .dropbtn5, .dropbtn5:focus {
+  background-color: black;
+  color: red;
+}
+
+.dropdown5-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown5-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown5-content a:hover {
+  background-color: #000000;
+}
+
+.show {
+  display: block;
+}
+
+body {
+  background-color: #969494;
+  background-image: url(https://78.media.tumblr.com/88f9d95ff0b22372de6027f6b08a675e/tumblr_ooy3rafrUa1viblyvo1_500.png);
+  background-size: cover;
+}
+
+.dropbtn {
+  width: 200px;
+  height: 80px;
+  opacity: 1.0;
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #1a1919;
+  border-width: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
+  border-width: 10px;
+  opacity: 0.7;
+}
+
+.dropbtn2 {
+  width: 200px;
+  height: 80px;
+  opacity: 1.0;
+  background-color: #48ff00;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #1a1919;
+  border-width: 5px;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown2:hover .dropbtn2 {
+  background-color: #48ff00;
+  border-width: 10px;
+  opacity: 0.7;
+}
+
+.dropbtn3 {
+  width: 200px;
+  height: 80px;
+  opacity: 1.0;
+  background-color: #5702f5;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #1a1919;
+  border-width: 5px;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown3:hover .dropbtn3 {
+  background-color: #5702f5;
+  border-width: 10px;
+  opacity: 0.7;
+}
+
+.dropbtn4 {
+  width: 200px;
+  height: 80px;
+  opacity: 1.0;
+  background-color: #f50298;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #1a1919;
+  border-width: 5px;
+}
+
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown4:hover .dropbtn4 {
+  background-color: #f50298;
+  border-width: 10px;
+  opacity: 0.7;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 35px;
+  color: white;
+  text-shadow: 0 0 0.2em #ff0606, 0 0 0.2em black, 0 0 0.2em black;
+}
+
+/*# sourceMappingURL=mywebsite.css.map */
+/*# sourceMappingURL=mymusic.css.map */

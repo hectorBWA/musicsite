@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MusicWorldWide</title>
+    <link rel="stylesheet" href="css/mymusic.css">
+</head>
+<body>
+      
+    
+
+
+
+<center>
+    
+<div class="navbar">
+        <a href="mymusic.html">Who's Up Next?</a>
+        <div class="dropdown5">
+          <button class="dropbtn5" onclick="myFunction()">More +
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown5-content" id="myDropdown5">
+            <a href="#">Custom Playlists</a>
+            <a href="#">Interviews</a>
+            <a href="#">Reviews and Releases</a>
+            <a href="#">Culture</a>
+          </div>
+        </div> 
+      </div> <br><br><br><br><br>
+      
+      <h1>Buzzing artist from all around the world. <br>Ready to break through.</h1>
+      <br><br>
+    
+
+    
+<a href="cali.html">
+<div class="dropdown">
+      <button class="dropbtn"><b>CALIFORNIA </b></button>
+</div></a>
+
+
+    <div class="dropdown2">
+        <button class="dropbtn2"><b>FLORIDA</b></button>
+            
+    </div>
+
+    <div class="dropdown3">
+        <button class="dropbtn3"><b>NEW YORK</b></button>
+                
+    </div>
+    
+    <div class="dropdown4">
+            <button class="dropbtn4"><b>ATLANTA</b></button>
+                    
+        </div>
+        <br><br>
+
+
+
+
+
+
+
+
+
+
+
+</center>
+
+  
+
+
+<script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown5").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn5')) {
+            var myDropdown = document.getElementById("myDropdown5");
+              if (myDropdown.classList.contains('show')) {
+                myDropdown.classList.remove('show');
+              }
+          }
+        }
+        </script>
+
+</body>
+</html>
