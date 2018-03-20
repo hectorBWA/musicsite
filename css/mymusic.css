@@ -1,174 +1,155 @@
+body {
+  background-image: url("/images/pattern.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #011e30;
+}
+
 .navbar {
+  animation-name: skills;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  z-index: 9999;
+  position: fixed;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.726);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  font-family: 'Bangers', cursive;
+  border-radius: 10px;
 }
 
 .navbar a {
   float: left;
-  font-size: 20px;
-  color: #e90e0e;
-  background-color: black;
+  font-size: 30px;
+  background-color: #0c020b;
+  background-size: 200px;
+  width: 128px;
+  height: 43px;
   text-align: center;
-  padding: 34px 36px;
+  padding: 36px;
   text-decoration: none;
+  transition: all 200ms;
 }
 
-.dropdown5 {
+.navbar a:hover {
+  color: tan;
+}
+
+section {
+  animation-name: skills;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  position: fixed;
+  box-shadow: 4px 4px 4px rgba(245, 241, 241, 0.308);
+  background-color: #0c020b;
+  border-radius: 10px;
+  height: 60%;
   float: left;
-  overflow: hidden;
+  width: 200px;
 }
 
-.dropdown5 .dropbtn5 {
-  cursor: cell;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  color: black;
-  padding: 34px 36px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+p {
+  animation-name: skills;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin: 0px;
+  border-bottom: 2px solid #6d6b6b;
+  font-family: 'Bangers', cursive;
+  font-size: 18px;
+  color: #ddeb1f;
+  padding: 15px;
+  transition: all .5s;
+  transition-delay: 0s;
+  transition-duration: 1s;
 }
 
-.navbar a:hover, .dropdown5:hover .dropbtn5, .dropbtn5:focus {
-  background-color: black;
-  color: red;
+p:hover {
+  background-color: rgba(212, 48, 26, 0.966);
 }
 
-.dropdown5-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown5-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.block {
+  animation-name: extra;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  margin: 0 auto;
+  width: 65%;
+  height: 55px;
+  background-color: #fdc50d;
+  box-shadow: 4px 4px 4px #130b0b;
+  border: 1px solid black;
   text-align: left;
+  font-family: 'Bangers', cursive;
+  font-size: 52px;
+  padding: 10px;
+  border-radius: 80px;
 }
 
-.dropdown5-content a:hover {
-  background-color: #000000;
+.features ul {
+  animation-name: extra;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-.show {
-  display: block;
+.features ul li {
+  border-radius: 20px;
+  list-style: none;
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  background-color: #04060a;
+  border: 20px double #02a5f0;
+  margin: 10px;
+  text-align: center;
 }
 
-body {
-  background-color: #969494;
-  background-image: url(https://78.media.tumblr.com/88f9d95ff0b22372de6027f6b08a675e/tumblr_ooy3rafrUa1viblyvo1_500.png);
+li {
+  margin: 10px;
+  border-bottom: 2px solid #8d1515;
   background-size: cover;
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+  color: #2df10a;
+  padding: 10px;
+  transition: all 200ms;
 }
 
-.dropbtn {
-  width: 200px;
-  height: 80px;
-  opacity: 1.0;
-  background-color: red;
-  color: white;
-  padding: 16px;
-  font-size: 20px;
-  border-style: solid;
-  border-color: #1a1919;
-  border-width: 5px;
+li:hover {
+  margin: 10px;
+  border-bottom: 2px solid #130b0b;
+  font-family: 'Bangers', cursive;
+  padding: 10px;
+  transition: all 200ms;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+@keyframes skills {
+  from {
+    left: -150px;
+    top: 0px;
+  }
+  to {
+    left: 0px;
+    top: 0px;
+  }
 }
 
-.dropdown:hover .dropbtn {
-  background-color: red;
-  border-width: 10px;
-  opacity: 0.7;
-}
-
-.dropbtn2 {
-  width: 200px;
-  height: 80px;
-  opacity: 1.0;
-  background-color: #48ff00;
-  color: white;
-  padding: 16px;
-  font-size: 20px;
-  border-style: solid;
-  border-color: #1a1919;
-  border-width: 5px;
-}
-
-.dropdown2 {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown2:hover .dropbtn2 {
-  background-color: #48ff00;
-  border-width: 10px;
-  opacity: 0.7;
-}
-
-.dropbtn3 {
-  width: 200px;
-  height: 80px;
-  opacity: 1.0;
-  background-color: #5702f5;
-  color: white;
-  padding: 16px;
-  font-size: 20px;
-  border-style: solid;
-  border-color: #1a1919;
-  border-width: 5px;
-}
-
-.dropdown3 {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown3:hover .dropbtn3 {
-  background-color: #5702f5;
-  border-width: 10px;
-  opacity: 0.7;
-}
-
-.dropbtn4 {
-  width: 200px;
-  height: 80px;
-  opacity: 1.0;
-  background-color: #f50298;
-  color: white;
-  padding: 16px;
-  font-size: 20px;
-  border-style: solid;
-  border-color: #1a1919;
-  border-width: 5px;
-}
-
-.dropdown4 {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown4:hover .dropbtn4 {
-  background-color: #f50298;
-  border-width: 10px;
-  opacity: 0.7;
-}
-
-h1 {
-  font-family: monospace;
-  font-size: 35px;
-  color: white;
-  text-shadow: 0 0 0.2em #ff0606, 0 0 0.2em black, 0 0 0.2em black;
+@keyframes extra {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=mywebsite.css.map */
