@@ -1,156 +1,38 @@
 body {
-  background-image: url("/images/pattern.png");
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-color: #011e30;
+  font-family: Arial;
+  color: white;
 }
 
-.navbar {
-  animation-name: skills;
-  animation-duration: 6s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  z-index: 9999;
+.split {
+  height: 100%;
+  width: 50%;
   position: fixed;
-  overflow: hidden;
-  background-color: transparent;
-  font-family: 'Bangers', cursive;
-  border-radius: 10px;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-.navbar a {
-  float: left;
-  font-size: 30px;
-  background-color: #0c020b;
-  background-size: 200px;
-  width: 128px;
-  height: 43px;
-  text-align: center;
-  padding: 36px;
-  text-decoration: none;
-  transition: all 200ms;
+.left {
+  left: 0;
+  background-color: #111;
 }
 
-.navbar a:hover {
-  color: tan;
+.right {
+  right: 0;
+  background-color: red;
 }
 
-section {
-  animation-name: skills;
-  animation-duration: 6s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  position: fixed;
-  box-shadow: 4px 4px 4px rgba(245, 241, 241, 0.308);
-  background-color: #0c020b;
-  border-radius: 10px;
-  height: 60%;
-  float: left;
-  width: 200px;
-}
-
-p {
-  animation-name: skills;
-  animation-duration: 6s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  margin: 0px;
-  border-bottom: 2px solid #6d6b6b;
-  font-family: 'Bangers', cursive;
-  font-size: 18px;
-  color: #ddeb1f;
-  padding: 15px;
-  transition: all .5s;
-  transition-delay: 0s;
-  transition-duration: 1s;
-}
-
-p:hover {
-  background-color: rgba(212, 48, 26, 0.966);
-}
-
-.block {
-  animation-name: extra;
-  animation-duration: 6s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  margin: 0 auto;
-  width: 65%;
-  height: 55px;
-  background-color: #fdc50d;
-  box-shadow: 4px 4px 4px #130b0b;
-  border: 1px solid black;
-  text-align: left;
-  font-family: 'Bangers', cursive;
-  font-size: 52px;
-  padding: 10px;
-  border-radius: 80px;
-}
-
-.features ul {
-  animation-name: extra;
-  animation-duration: 6s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 20px;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.features ul li {
-  border-radius: 20px;
-  list-style: none;
-  width: 350px;
-  height: 350px;
-  padding: 10px;
-  background-color: #04060a;
-  border: 20px double #02a5f0;
-  margin: 10px;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
-li {
-  margin: 10px;
-  border-bottom: 2px solid #8d1515;
-  background-size: cover;
-  font-family: 'Bangers', cursive;
-  font-size: 25px;
-  color: #2df10a;
-  padding: 10px;
-  transition: all 200ms;
+.centered img {
+  width: 150px;
+  border-radius: 50%;
 }
-
-li:hover {
-  margin: 10px;
-  border-bottom: 2px solid #130b0b;
-  font-family: 'Bangers', cursive;
-  padding: 10px;
-  transition: all 200ms;
-}
-
-@keyframes skills {
-  from {
-    left: -150px;
-    top: 0px;
-  }
-  to {
-    left: 0px;
-    top: 0px;
-  }
-}
-
-@keyframes extra {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-/*# sourceMappingURL=mywebsite.css.map */
 /*# sourceMappingURL=mymusic.css.map */
