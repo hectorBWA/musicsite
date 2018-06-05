@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Heebo:700");
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:600");
 body {
-  background-color: white;
+  background-color: rgb(22, 22, 22);
   background-size: cover;
   background-position-y: -190px;
   background-attachment: fixed;
@@ -128,5 +128,36 @@ a {
   text-align: center;
 }
 
+
+.past{
+  text-align: center;
+  padding: 20px;
+  color: rgb(226, 214, 40);
+  font-weight: bold;
+  font-size:24px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.block{
+  border:2px solid rgb(218, 218, 218);
+  width:850px;
+  background-color: rgb(218, 218, 218);
+  height:500px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom:100px;
+  text-align: unset;
+img{
+  max-width: 300px;
+  min-width: 300px;
+  
+}
+p{
+  font-family: 'Source Code Pro', monospace;
+  padding:50px;
+}
+}
 
 /*# sourceMappingURL=entrance.css.map */
