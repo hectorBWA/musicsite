@@ -8,6 +8,8 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .header {
@@ -33,7 +35,7 @@ body {
 }
 
 .header p {
-  color: gold;
+  color: #fd5b5b;
   font-family: 'Source Code Pro', monospace;
   margin-top: 10vh;
   padding: 30px;
@@ -50,19 +52,19 @@ body {
   height: 70vh;
   background-color: white;
   transition: all 250ms;
+  background-image: url("/images/proj.jpg");
+  background-size: 150%;
 }
 
 .one:hover {
-  opacity: .5;
-  background-image: url("/images/proj.jpg");
-  background-size: 150%;
+  opacity: .7;
 }
 
 .link1 {
   font-size: 25px;
   margin: 0;
   font-family: 'Heebo', sans-serif;
-  color: black;
+  color: #e9e649;
   text-align: center;
 }
 
@@ -80,12 +82,12 @@ a {
   height: 70vh;
   background-color: white;
   transition: all 300ms;
+  background-image: url("/images/interv.jpg");
+  background-size: 150%;
 }
 
 .two:hover {
-  opacity: .5;
-  background-image: url("/images/interv.jpg");
-  background-size: 150%;
+  opacity: .7;
 }
 
 .three {
@@ -93,16 +95,16 @@ a {
   height: 70vh;
   background-color: white;
   transition: all 300ms;
-}
-
-.three:hover {
-  opacity: .5;
   background-image: url("/images/hands.jpg");
   background-size: 200%;
 }
 
+.three:hover {
+  opacity: .7;
+}
+
 .four {
-  width: 23.5vw;
+  width: 25vw;
   height: 70vh;
   background-color: #070605;
   opacity: .8;
@@ -110,10 +112,6 @@ a {
 
 .four h1 {
   color: white;
-}
-
-.four:hover {
-  opacity: .5;
 }
 
 .footer {
