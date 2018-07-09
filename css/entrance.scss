@@ -43,6 +43,12 @@ body {
 
   text-decoration: none;
   color: black;
+  transition: all 250ms;
+
+}
+.header a:hover {
+
+  color: rgb(206, 18, 18);
 
 }
 

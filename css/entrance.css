@@ -49,6 +49,12 @@ body {
 .header a {
   text-decoration: none;
   color: black;
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+
+.header a:hover {
+  color: #ce1212;
 }
 
 .container {
